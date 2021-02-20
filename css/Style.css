@@ -66,6 +66,14 @@ button.btn {
   cursor: pointer;
 }
 
+span {
+  font-family: var(--Abel);
+}
+
+.container {
+  margin: 0 5vw;
+}
+
 /* Global Classes Ends */
 
 /* Navbar starts here */
@@ -119,14 +127,16 @@ nav {
 }
 
 .nav .nav-items .nav-link {
-  padding: 1.6rem 1rem;
+  padding: 1.2rem 2rem;
   font-size: 1.1rem;
   position: relative;
   font-family: var(--Abel);
+  border-radius: 20px;
+  margin-top: 0.2rem;
 }
 
 .nav .nav-items .nav-link:hover {
-  background-color: var(--midnight);
+  background-color: #383cc1;
 }
 
 .nav .nav-items .nav-link:hover a {
@@ -157,6 +167,7 @@ main .site-title {
   height: 110vh;
   display: flex;
   justify-content: center;
+  border-radius: 0 0 20px 20px;
 }
 
 main .site-title .site-background {
@@ -182,6 +193,70 @@ main .site-title .btn:hover {
 }
 
 /* Site-title ends here */
+
+/* Blog Carousel starts here */
+
+main .blog {
+  background: url("../assets/Abract01.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+  background-size: 65%;
+}
+
+main .blog .blog-post {
+  padding-top: 6rem;
+}
+
+main .blog-post .blog-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+main .blog-content .blog-title {
+  padding: 2rem 0;
+}
+
+main .blog-content .btn-blog {
+  padding: 0.7rem 2rem;
+  background: var(--sky);
+  margin: 0.5rem;
+}
+
+main .blog-content span {
+  display: block;
+}
+
+section .container .owl-nav {
+  position: absolute;
+  top: 0%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next {
+  color: blue;
+  background: transparent;
+  font-size: 2rem;
+}
+
+.owl-theme .owl-nav [class*="owl"]:hover {
+  background: transparent;
+  color: blue;
+}
+
+.owl-theme .owl-nav [class*="owl"] {
+  outline: none;
+}
+
+/* Blog Carousel ends here */
 
 /* Main Content ends here */
 
