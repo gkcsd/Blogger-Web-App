@@ -43,6 +43,29 @@ li {
   flex-wrap: wrap;
 }
 
+h1 {
+  font-family: var(--Lexend);
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: var(--Lexend);
+}
+
+h3 {
+  font-family: var(--Abel);
+  font-size: 1.3rem;
+}
+
+button.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-family: var(--Livvic);
+  cursor: pointer;
+}
+
 /* Global Classes Ends */
 
 /* Navbar starts here */
@@ -123,6 +146,44 @@ nav {
 }
 
 /* Navbar ends here */
+
+/* Main Content Starts here */
+
+/* site-title starts here */
+
+main .site-title {
+  background: url("../assets/Background-image-3.jpg");
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+
+main .site-title .site-background {
+  padding-top: 10rem;
+  text-align: center;
+  color: var(--white);
+}
+
+main .site-title h1,
+h3 {
+  margin: 0.3rem;
+}
+
+main .site-title .btn {
+  margin: 1.8rem;
+  background: var(--sky);
+}
+
+main .site-title .btn:hover {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+/* Site-title ends here */
+
+/* Main Content ends here */
 
 /* ViewPort Less Than Or Equal To 750px */
 
