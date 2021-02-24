@@ -258,6 +258,15 @@ section .container .owl-nav {
 
 /* Blog Carousel ends here */
 
+/* SiteContent starts here */
+
+main .site-content {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+/* SiteContent ends here */
+
 /* Main Content ends here */
 
 /* ViewPort Less Than Or Equal To 750px */
